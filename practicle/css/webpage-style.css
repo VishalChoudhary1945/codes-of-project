@@ -1,0 +1,70 @@
+.body
+{
+    display: flex;
+}  
+.header
+{
+    background-image: url(header.png);
+    /* text-align: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.header img
+{
+    height: 250px;
+    width: 1200px;
+}
+.menu .menu-list
+{
+    display: flex;
+    margin: 0px 25%;
+}
+.menu-list
+{
+    background-color: #b27117;
+    width: 300;
+    height: 40;
+    text-align: center;
+    font-size: 27px;
+    color:white;
+    padding-top: 8px;
+    margin: 1px;
+}
+
+.menu-list:hover
+{
+    background-color: white;
+   
+    
+
+    color:#b27117;
+   
+    
+}
+
+.divstyle{
+    background-color: tomato;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: aliceblue;
+    height: 500px;
+    width: 500px;
+    animation-duration: 2s;
+    animation-name: test;
+}
+
+@keyframes test {
+    from {
+      margin-left: 10%;
+      width: 30%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 10%;
+    }
+  }
+
+
